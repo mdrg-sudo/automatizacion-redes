@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web-server:
+    image: nginx:alpine
+    container_name: contenedor_nginx_prueba
+    ports:
+      - "8080:80"
+    restart: always
