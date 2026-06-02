@@ -26,7 +26,7 @@ Para establecer el entorno de escritura de código, se optó por Visual Studio C
     * **YAML:** Para validación de sintaxis en archivos de configuración.
     * **GitLens:** Para un mejor seguimiento del control de versiones.
 
-`![Instalación VSCode](images/vscode_plugins.png)`
+![Instalación VSCode](images/vscode_plugins.png)
 
 #### Instalación técnica de Docker
 El proceso en distribuciones basadas en Linux requiere agregar los repositorios oficiales para obtener la versión más reciente del Engine.
@@ -36,7 +36,7 @@ El proceso en distribuciones basadas en Linux requiere agregar los repositorios 
 4.  Instalación del Engine, CLI y containerd: `sudo apt install docker-ce docker-ce-cli containerd.io`.
 5.  Adición del usuario local al grupo docker para evitar el uso de `sudo`: `sudo usermod -aG docker $USER`.
 
-`![Versión de Docker](images/docker_install.png)`
+![Versión de Docker](images/docker_install.png)
 
 #### Instalación técnica de Git
 Sistema de control de versiones distribuido fundamental para rastrear los cambios en los scripts de automatización.
@@ -45,7 +45,7 @@ Sistema de control de versiones distribuido fundamental para rastrear los cambio
     * `git config --global user.name "Marcos Daniel Rodriguez Guerrero"`
     * `git config --global user.email "marcosdanielrodriguez097@gmail.com"`
 
-`![Instalación de Git](images/git_install.png)`
+![Instalación de Git](images/git_install.png)
 
 ---
 
@@ -57,12 +57,12 @@ Para verificar que el demonio de Docker está funcionando correctamente y es cap
 
 El resultado muestra la descarga de la imagen y el mensaje de confirmación de que la instalación parece estar funcionando correctamente.
 
-`![Prueba Hello World](images/docker_hello.png)`
+![Prueba Hello World](images/docker_hello.png)
 
 #### Ejecutar un archivo ".YML" para verificar el funcionamiento de contenedores
 Se creó un archivo `docker-compose.yml` básico y se levantó el servicio utilizando Docker Compose para validar la orquestación.
 
-`![Prueba Docker Compose](images/docker_compose.png)`
+![Prueba Docker Compose](images/docker_compose.png)
 
 ---
 
