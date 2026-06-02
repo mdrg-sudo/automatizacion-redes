@@ -63,6 +63,8 @@ El resultado muestra la descarga de la imagen y el mensaje de confirmación de q
 Se creó un archivo `docker-compose.yml` básico y se levantó el servicio utilizando Docker Compose para validar la orquestación.
 
 ![Prueba Docker Compose](images/docker_compose.png)
+
+
 ![Prueba Nginx Funcionando](images/docker_container.png)
 
 ---
