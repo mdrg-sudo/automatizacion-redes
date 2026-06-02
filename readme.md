@@ -64,8 +64,6 @@ Se creó un archivo `docker-compose.yml` básico y se levantó el servicio utili
 
 ![Prueba Docker Compose](images/docker_compose.png)
 
-![Prueba Nginx Funcionando](images/docker_container.png)
-
 ---
 
 ## Conclusión
